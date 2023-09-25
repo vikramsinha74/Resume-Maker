@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-fields{
+    margin: 2px auto;
+    max-width: 500px;
+    
+}
+
+.input-fields input,textarea{
+    width: 100%;
+    height: 40px;
+    margin: 2px;
+    box-shadow: 0 5px 50px 0 #5f7575 inset,0 5px 50px 0 #445e5d,0 5px 50px 0 #a4c4c3 inset,0 5px 50px 0 #6f9291;
+
+}
+.input-fields ::placeholder{
+    color:black;
+}
+.input-fields h1 {
+    color:blue;
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    border:2px solid rgb(68, 218, 255);
+
+}
+
+.hero{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+    color:white
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(68, 218, 255);
+}
+
+.main h2{
+    border-bottom: 2px solid rgb(7, 7, 7);
+    width: max-content;
+    color:white
+}
+.btn{
+    text-align: center;
+    margin: 2px;
+}
+button{
+    width: 150px;
+    background-color:blue;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+btn:hover {
+    color:pink;
+    
+}
